@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 3000,
+    growEditionSizeTo: 5000,
     layersOrder: [
       { name: "Background" },
       { name: "Pacman" },
@@ -52,14 +52,14 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const OWNER_ADDRESS = '0xdEB628e311B387CE8948Afe83b2d8d63914b5692';
 const TREASURY_ADDRESS = '0xdEB628e311B387CE8948Afe83b2d8d63914b5692';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 8; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 53; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-04-30T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-06-01T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-04-28T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-05-28T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 100; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xdEB628e311B387CE8948Afe83b2d8d63914b5692"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri

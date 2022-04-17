@@ -1,9 +1,9 @@
-const contractAddress = "0x6C91d7C2561547F8D1eed86dCaD5c6a347c6fefF"; //Replace with your own contract address
+const contractAddress = "0x3B94EcB875B0d126c47AFB6B83AAEAb64e405376"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the PacmanPackPunk NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The PacmanPackPunk NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://discord.gg/exGrYfrt"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'The PacmanPackPunk NFT Project';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
